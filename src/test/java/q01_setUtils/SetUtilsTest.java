@@ -14,6 +14,7 @@ import java.util.Set;
 public class SetUtilsTest {
 
     @Nested
+    @TestInstance(TestInstance.Lifecycle.PER_CLASS)
     class Level1 {
         private Set<String> set1;
         private Set<String> set2;
@@ -49,6 +50,7 @@ public class SetUtilsTest {
     }
 
     @Nested
+    @TestInstance(TestInstance.Lifecycle.PER_CLASS)
     class Level2 {
         private Set<String> set1;
         private Set<String> set2;
@@ -90,6 +92,7 @@ public class SetUtilsTest {
     }
 
     @Nested
+    @TestInstance(TestInstance.Lifecycle.PER_CLASS)
     class Level3 {
         private Set<String> set1;
         private Set<String> set2;
@@ -132,6 +135,7 @@ public class SetUtilsTest {
     }
 
     @Nested
+    @TestInstance(TestInstance.Lifecycle.PER_CLASS)
     class Level4 {
         private Set<String> set1;
         private Set<String> set2;
